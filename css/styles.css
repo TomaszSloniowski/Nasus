@@ -59,7 +59,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 170px 1fr 1fr;
-    background: url("assets/waste2.png");
+    background: url("../assets/waste2.png");
     background-size: cover;
 
 }
@@ -209,7 +209,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     background-color: white;
-    background: url("assets/industrial2.jpg");
+    background: url("../assets/industrial2.jpg");
     background-size: cover;
 }
 
