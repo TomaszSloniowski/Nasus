@@ -206,31 +206,58 @@ a:hover {
 /*--------------------------- Work ----------------------------*/
 
 .section__work {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: column;
     background-color: white;
     background: url("../assets/industrial2.jpg");
     background-size: cover;
 }
+.section__work__article1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-.section__work h4 {
-    color: white;
-    background-color: rgb(226, 27, 27);
-    font-size: 1.1rem;
-    font-size: 1rem;
-    font-weight: 300;
+    }
+.article__header {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    color:black;
+    font-size: 1.6rem;
+    font-weight: 200;
     text-align: center;
     margin: 0px;
-    padding: 20px;
-    border: solid 0.5px white;
+    padding: 50px 0px 20px 40px;;
 }
 
-.section__work p {
+.section__work p.p1 {
+    display: flex;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 20px 20px 40px;
+}
+.section__work p.p2 {
+    display: flex;
+    grid-column: 2;
+    grid-row: 2;
     font-size: 0.85rem;
     font-weight: 400;
     text-align: justify;
-    padding: 20px;
-
+    padding: 20px 20px 20px 40px;
+}
+.section__work p.p3 {
+    display: flex;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: justify;
+    padding: 20px 20px 20px 40px;
+    color: rgb(226, 27, 27);
 }
 
 /*--------------------------- Financial lab ---------------------*/
