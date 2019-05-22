@@ -59,7 +59,7 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 170px 1fr 1fr;
-    background: url("../assets/waste2.png");
+    background: url("../assets/waste.jpg");
     background-size: cover;
 
 }
@@ -184,21 +184,21 @@ a:hover {
     padding-top: 10px;
 }
 
-.section__about h2 {
+.section__about .p1 {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    padding: 10px 200px 30px 200px;
+    padding: 40px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     line-height: 1.5em;
-}
+    }
 
-.section__about p {
+.section__about .p2 {
     font-size: 1.2rem;
     font-weight: 300;
     text-align: justify;
-    padding: 20px 220px 50px 220px;
+    padding: 40px;
     letter-spacing: 0.03em;
     line-height: 1.5em;
 }
@@ -213,6 +213,7 @@ a:hover {
     background-color: white;
     background: url("../assets/industrial2.jpg");
     background-size: cover;
+    padding: 20px;
 }
 .section__work__article1 {
     display: grid;
@@ -228,7 +229,7 @@ a:hover {
     font-weight: 200;
     text-align: center;
     margin: 0px;
-    padding: 50px 0px 20px 40px;;
+    padding: 50px 0px 20px 20px;;
 }
 
 .section__work p.p1 {
@@ -238,7 +239,7 @@ a:hover {
     font-size: 1.1rem;
     font-weight: 600;
     text-align: justify;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 20px;
 }
 .section__work p.p2 {
     display: flex;
@@ -247,7 +248,7 @@ a:hover {
     font-size: 0.85rem;
     font-weight: 400;
     text-align: justify;
-    padding: 20px 20px 20px 40px;
+    padding: 20px;
 }
 .section__work p.p3 {
     display: flex;
@@ -256,7 +257,7 @@ a:hover {
     font-size: 1.1rem;
     font-weight: 600;
     text-align: justify;
-    padding: 20px 20px 20px 40px;
+    padding: 20px;
     color: rgb(226, 27, 27);
 }
 
@@ -279,7 +280,7 @@ a:hover {
     font-size: 1.2rem;
     font-weight: 300;
     text-align: justify;
-    padding: 20px 220px 10px 220px;
+    padding: 20px;
     letter-spacing: 0.03em;
     line-height: 1.5em;
 }
