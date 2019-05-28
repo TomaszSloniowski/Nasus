@@ -213,7 +213,6 @@ a:hover {
 .section__work__article1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 .article__header {
@@ -357,6 +356,7 @@ a:hover {
     text-align: center;
     border-bottom: solid 1px darkgray;
     padding: 6px;
+    min-width: 60px;
 }
 
 
@@ -404,6 +404,7 @@ footer .contacts1 {
     flex-direction: column;
     grid-column: 1;
     justify-items: start;
+    padding-right: 15px;
 }
 
 footer .contacts2 {
@@ -448,8 +449,9 @@ footer .media {
 
 .footer__location {
     display: flex;
+    grid-column: 1;
     flex-direction: row;
-    padding-top: 15px;
+    padding-top: 20px;
     align-items: flex-end;
     margin: 0px;
 }
@@ -566,27 +568,6 @@ footer .media {
         grid-template-columns: 1fr;
     }
 
-    .footer {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        height: 400px;
-    }
-
-    footer .contacts1 {
-        display: flex;
-        flex-direction: column;
-        justify-items: start;
-        min-width: 220px;
-    }
-
-    footer .contacts2 {
-        display: flex;
-        flex-direction: column;
-        justify-items: start;
-        min-width: 220px;
-    }
-
     .section__about {
         padding: 20px;
     }
@@ -598,9 +579,70 @@ footer .media {
     .section__about .p2 {
         font-size: 1rem;
     }
+
     .section__financial {
         display: flex;
         flex-direction: column;
         padding: 10px 0px 30px 0px;
+    }
+
+    .section__financial p {
+        font-size: 1rem;
+    }
+
+    .financial__table2 th,
+    .financial__table2 .th2,
+    .financial__table2 .th3,
+    .financial__table2 td {
+        font-size: 0.8rem;
+    }
+
+    p.footnotes,
+    p.footnotes__strong {
+        font-size: 0.75rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer .contacts1 {
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+        padding-bottom: 15px;
+    }
+
+    footer .contacts2 {
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+    }
+
+    footer h4 {
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin: 0px;
+        padding: 10px 10px 15px 0px;
+    }
+
+    .contacts1 h5,
+    .contacts2 h5 {
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+    footer .media {
+        justify-self: flex-start;
+        padding: 50px 10px 10px 0px;
     }
 }
